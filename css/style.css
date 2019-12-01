@@ -688,6 +688,9 @@ footer section#footer-bottom {
   main section#creative .box {
     padding: 0 1em;
     height: 20em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   main section#products .container .content-holder .product {
     height: 20em;
@@ -713,6 +716,10 @@ footer section#footer-bottom {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  footer section#footer-top .container .content-holder .description p {
+    text-align: justify;
+    padding: 0 4em;
   }
   footer section#footer-top .container .content-holder .links ul {
     display: -webkit-box;
