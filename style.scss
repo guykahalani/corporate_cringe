@@ -567,6 +567,7 @@ footer {
       .box {
         padding: 0 1em;
         height: 20em;
+        align-items: center;
       }
     }
     section#products {
@@ -604,6 +605,10 @@ footer {
           }
           .description {
             align-items: center;
+            p {
+              text-align: justify;
+              padding: 0 4em;
+            }
           }
           .links {
             ul {
