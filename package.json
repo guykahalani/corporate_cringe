@@ -1,0 +1,24 @@
+{
+  "name": "corporate_cringe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://guykahalani.github.io/corporate_cringe",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guykahalani/corporate_cringe.git"
+  },
+  "author": "Guy K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guykahalani/corporate_cringe/issues"
+  }
+}
